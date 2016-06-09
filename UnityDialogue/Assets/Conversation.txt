@@ -1,0 +1,14 @@
+Person 1
+This is me, saying something to you.
+
+Person 2
+I understand that you have said someting to me.
+
+Person 3
+I am also in this conversation.
+
+Person 1, Person 2
+ODIE HUSH!
+
+Person 3
+My bad
