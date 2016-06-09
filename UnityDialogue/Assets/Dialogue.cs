@@ -16,10 +16,13 @@
             totalPhrases = lines.Count/2;
         }
 
-        public string GetCurrentNameAndPhrase()
+        public string GetCurrentNameAndPhrase(bool a_ProgressIndex = false)
         {
             string output = GetCurrentPersonSpeaking() + "\n" +
                             GetCurrentPhrase();
+
+            currentIndex = a_ProgressIndex ? currentIndex + 1 : currentIndex;
+
             return output;
         }
 

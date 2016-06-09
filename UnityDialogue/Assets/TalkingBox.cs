@@ -21,8 +21,7 @@ public class TalkingBox : MonoBehaviour
                 textBox.text = "";
                 return;
             }
-            textBox.text = m_Dialogue.GetCurrentNameAndPhrase();
-            m_Dialogue.currentIndex++;
+            textBox.text = m_Dialogue.GetCurrentNameAndPhrase(true);
         }
     }
 }
